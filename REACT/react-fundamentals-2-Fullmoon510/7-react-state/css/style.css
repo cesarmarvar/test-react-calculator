@@ -1,0 +1,6 @@
+@import url("./global.css");
+@import url("./components/button.css");
+
+.bold {
+  font-weight: bold;
+}
