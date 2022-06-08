@@ -1,0 +1,26 @@
+.sidebar-item {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 6px;
+  color: var(--gray-600);
+  text-decoration: none;
+}
+
+.sidebar-item:hover {
+  background-color: var(--pink-100);
+}
+
+.sidebar-item:active {
+  background-color: var(--pink-400);
+  color: var(--white)
+}
+
+.sidebar-item--active:hover {
+  background-color: var(--pink-400);
+}
+
+.sidebar-item:focus {
+  outline: 1px solid var(--pink-500);
+}
