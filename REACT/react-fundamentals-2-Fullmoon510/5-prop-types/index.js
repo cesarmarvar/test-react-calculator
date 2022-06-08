@@ -78,7 +78,7 @@ Icon.propTypes = {
 function SidebarItem(props) {
   const {children, href = "#", current, icon } = props
 
-  const currentActive = current ? "sidebar-item:active" : ""
+  const currentActive = current ? "sidebar-item--active" : ""
 
   return (
     <a href={href} className={`sidebar-item ${currentActive}`}>

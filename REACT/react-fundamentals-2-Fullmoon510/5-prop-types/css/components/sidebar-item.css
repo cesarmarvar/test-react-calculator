@@ -1,3 +1,5 @@
+/* Inactive */
+
 .sidebar-item {
   padding: 0.5rem;
   display: flex;
@@ -12,7 +14,14 @@
   background-color: var(--pink-100);
 }
 
-.sidebar-item:active {
+.sidebar-item:focus {
+  outline: 1px solid var(--pink-500);
+}
+
+
+/* Active */
+
+.sidebar-item--active {
   background-color: var(--pink-400);
   color: var(--white)
 }
@@ -21,6 +30,6 @@
   background-color: var(--pink-400);
 }
 
-.sidebar-item:focus {
+.sidebar-item--active:focus {
   outline: 1px solid var(--pink-500);
 }
